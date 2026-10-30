@@ -52,3 +52,5 @@ caddy_active_config.json
 
 # Yerel test ciktisi
 cynlog_test_barcode.svg
+
+docker-compose.yml.guvenlik-yedek
