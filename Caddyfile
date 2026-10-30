@@ -1,0 +1,5 @@
+wms.cynlog.internal {
+    tls internal
+    encode gzip
+    reverse_proxy app:8000
+}

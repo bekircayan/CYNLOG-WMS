@@ -1,0 +1,54 @@
+﻿# Gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Veritabani yedekleri
+*.dump
+*.bak
+*.backup
+
+# Eski surumler ve yedekler
+YEDEK_*/
+GUNCELLEME/
+*.yedek
+*.yedek*
+*backup*.json
+*.zip
+
+# Python gecici dosyalari
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistem dosyalari
+.DS_Store
+Thumbs.db
+
+# Yerel sertifikalar ve anahtarlar
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Yerel veriler
+data/
+postgres_data/
+
+# Eski uygulama ve arayuz surumleri
+app_before_*
+app.py.barkod-yedek
+static/index_before_*
+static/index.html.barkod-yedek
+
+# Gecici guncelleme ve onarim betikleri
+update_*.py
+fix_*.py
+add_code128_api.py
+
+# Yerel Caddy yapilandirma ciktisi
+caddy_active_config.json
+
+# Yerel test ciktisi
+cynlog_test_barcode.svg
